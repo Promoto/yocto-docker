@@ -35,5 +35,7 @@ RUN echo "Port 22" >> /etc/ssh/sshd_config
 RUN echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 
+CMD /etc/init.d/ssh restart
+
 #
 SHELL ["/bin/bash", "-c"]

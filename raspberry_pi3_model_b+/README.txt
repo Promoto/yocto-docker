@@ -99,7 +99,7 @@ sudo apt-get install bmap-tools
 sudo bmaptool copy core-image-base-raspberrypi3.wic.bz2 /dev/sdb
 
 ###########################################
-#	Building Up Yocto Enviroment       
+# 	Building Up Yocto Enviroment       
 ###########################################
 
 bitbake-layers show-recipes
@@ -125,7 +125,7 @@ reference:
 https://wiki.phytec.com/pages/viewpage.action?pageId=127338558
 
 #############################
-# Bitbake Command					
+#	Bitbake Command					
 #############################
 
 bitbake <package> -c listtasks
@@ -138,7 +138,7 @@ reference:
 https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/Useful-bitbake-commands/ta-p/1128559
 
 #############################
-# patch file 					
+#	Patch file 					
 #############################
 
 git init
@@ -153,7 +153,7 @@ refernece:
 https://ithelp.ithome.com.tw/articles/10188265
 
 #############################
-# NTFS introduction						
+#	NTFS introduction						
 #############################
 
 https://www.ntfs.com/index.html
